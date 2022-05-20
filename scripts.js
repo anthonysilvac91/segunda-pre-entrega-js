@@ -40,7 +40,8 @@ tarjetas = () => {
                 <strong>${producto.precio}</strong>
                 <h2>${producto.nombre}</h2>
                 <p> ${producto.descripcion} </p>
-                <a href="" id="boton${producto.id}" class="boton">Añadir al carrito</a>      
+                <button id="boton${producto.id}" class="boton">Añadir al carrito</button>
+                    
             </div>
         </section>`
 
